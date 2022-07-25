@@ -1,15 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <p></p>
+  <IpPage/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  
+  import IpPage from '@/components/IpPage.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    IpPage
   }
 }
 </script>
